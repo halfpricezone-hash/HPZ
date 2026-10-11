@@ -29,8 +29,8 @@
   Get these TWO PUBLIC values from Supabase > Project Settings > API.
   Do not paste a service_role/secret key here. See README_UR.md and setup.sql.
 */
-const SUPABASE_URL = 'PASTE_SUPABASE_PROJECT_URL';
-const SUPABASE_PUBLIC_KEY = 'PASTE_SUPABASE_PUBLISHABLE_KEY';
+const SUPABASE_URL = 'https://krlwridvaxqjukdldkyh.supabase.co
+const SUPABASE_PUBLIC_KEY = 'sb_publishable_1QX7713YjVE4EomH2Wo1lA_WO2mXATI';
 /* ========================================== */
 const isConfigured = /^https:\/\/[\w-]+\.supabase\.co\/?$/.test(SUPABASE_URL) && !SUPABASE_PUBLIC_KEY.startsWith('PASTE_');
 let supa=null;
